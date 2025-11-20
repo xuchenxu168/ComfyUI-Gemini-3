@@ -1,0 +1,45 @@
+{
+  "api_providers": {
+    "google": {
+      "api_key": "YOUR_GOOGLE_API_KEY_HERE",
+      "base_url": "https://generativelanguage.googleapis.com",
+      "models": [
+        "gemini-3-pro-preview"
+      ]
+    },
+    "comet": {
+      "api_key": "YOUR_COMETAPI_KEY_HERE",
+      "base_url": "https://api.cometapi.com",
+      "models": [
+        "gemini-3-pro-preview",
+        "gemini-3-pro-preview-thinking"
+      ]
+    },
+    "T8的贞贞AI工坊": {
+      "api_key": "YOUR_T8_API_KEY_HERE",
+      "base_url": "https://ai.t8star.cn/v1",
+      "models": [
+        "gemini-3-pro-preview",
+        "gemini-3-pro-preview-thinking"
+      ]
+    },
+    "comfly": {
+      "api_key": "YOUR_COMFLY_API_KEY_HERE",
+      "base_url": "https://ai.comfly.chat/v1/",
+      "models": [
+        "gemini-3-pro-preview",
+        "gemini-3-pro-preview-thinking"
+      ]
+    },
+    "aabao": {
+      "api_key": "YOUR_AABAO_API_KEY_HERE",
+      "base_url": "https://api.aabao.top/v1",
+      "models": [
+        "gemini-3-pro-preview",
+        "gemini-3-pro-preview-thinking"
+      ]
+    }
+  },
+  "default_provider": "google"
+}
+

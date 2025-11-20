@@ -1,0 +1,76 @@
+{
+    "last_node_id": 2,
+    "last_link_id": 1,
+    "nodes": [
+        {
+            "id": 1,
+            "type": "Gemini3BatchProcessing",
+            "pos": [250, 200],
+            "size": {
+                "0": 400,
+                "1": 300
+            },
+            "flags": {},
+            "order": 0,
+            "mode": 0,
+            "outputs": [
+                {
+                    "name": "batch_name",
+                    "type": "STRING",
+                    "links": null
+                },
+                {
+                    "name": "status",
+                    "type": "STRING",
+                    "links": [1],
+                    "label": "status"
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "Gemini3BatchProcessing"
+            },
+            "widgets_values": [
+                "[\n  {\"prompt\": \"将'hello'翻译成法语\"},\n  {\"prompt\": \"将'world'翻译成法语\"},\n  {\"prompt\": \"将'AI'翻译成法语\"},\n  {\"prompt\": \"将'technology'翻译成法语\"}\n]",
+                "gemini-3-pro-preview",
+                "low",
+                ""
+            ]
+        },
+        {
+            "id": 2,
+            "type": "ShowText|pysssss",
+            "pos": [700, 200],
+            "size": {
+                "0": 350,
+                "1": 250
+            },
+            "flags": {},
+            "order": 1,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "text",
+                    "type": "STRING",
+                    "link": 1
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "ShowText|pysssss"
+            }
+        }
+    ],
+    "links": [
+        [1, 1, 1, 2, 0, "STRING"]
+    ],
+    "groups": [
+        {
+            "title": "批处理 (Batch Processing)",
+            "bounding": [200, 100, 900, 450],
+            "color": "#3f789e",
+            "font_size": 24
+        }
+    ],
+    "config": {},
+    "extra": {},
+    "version": 0.4
+}
