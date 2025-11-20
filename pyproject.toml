@@ -1,0 +1,17 @@
+[project]
+name = "ComfyUI-Gemini-3"
+description = "Full-featured, high-performance Google Gemini 3 integration for ComfyUI. This plugin implements **all** Gemini 3 capabilities with optimized performance."
+version = "2.0.0"
+license = {file = "LICENSE"}
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/xuchenxu168/ComfyUI-Gemini-3"
+"Bug Tracker" = "https://github.com/xuchenxu168/ComfyUI-Gemini-3/issues"
+#  Used by Comfy Registry https://registry.comfy.org
+
+[tool.comfy]
+PublisherId = "xuchenxu168"
+DisplayName = "ComfyUI-Gemini-3"
+Icon = ""
+includes = []
